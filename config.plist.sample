@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>GUI</key>
+  <dict>
+    <key>Custom</key>
+    <dict>
+      <key>Entries</key>
+      <array>
+        <dict>
+          <key>Arguments</key>
+          <string>initrd=\initrd.gz root=UUID=%SYSUUID% ro</string>
+          <key>Path</key>
+          <string>\vmlinuz</string>
+          <key>Title</key>
+          <string>eweOS</string>
+          <key>Type</key>
+          <string>Linux</string>
+          <key>Volume</key>
+          <string>%EFIUUID%</string>
+          <key>VolumeType</key>
+          <string>Internal</string>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</dict>
+</plist>
+
