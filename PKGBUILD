@@ -3,13 +3,10 @@
 pkgname=ncurses
 pkgver=6.3
 pkgrel=1
-arch=(x86_64)
+arch=(x86_64 aarch64)
 license=(GPL2)
 pkgdesc="System V Release 4.0 curses emulation library"
 url="https://invisible-island.net/ncurses/ncurses.html"
-groups=()
-depends=()
-makedepends=()
 
 source=(
     "http://ftp.gnu.org/gnu/ncurses/ncurses-${pkgver}.tar.gz"
